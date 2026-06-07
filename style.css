@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "NeueHaasGrotesk";
-    src: url("fonts/NeueHaasGrotesk.woff") format("woff");
-    font-weight: normal;
+    font-family: "Neue Haas Grotesk";
+    src: url("fonts/NeueHaasGrotTextRound-65Medium-Trial.woff") format("woff");
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 body {
+    margin: 0;
     font-family: "Neue Haas Grotesk", Arial, sans-serif;
     background-color: #f4f7fb;
     color: #222;
 }
-
 nav {
     background-color: #2f5d50;
     padding: 0;
@@ -69,4 +69,7 @@ h1 {
 
 .button:hover {
     background-color: #3f6b95;
+}
+h1, h2, nav {
+    font-family: "Neue Haas Grotesk", Arial, sans-serif;
 }
