@@ -1,6 +1,13 @@
+@font-face {
+    font-family: "Neue Machina";
+    src: url("fonts/NeueMachina-Regular.woff2") format("woff2"),
+         url("fonts/NeueMachina-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Neue Machina", sans-serif;
     background-color: #f4f7fb;
     color: #222;
 }
