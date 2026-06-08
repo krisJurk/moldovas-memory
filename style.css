@@ -1,14 +1,13 @@
 @font-face {
-    font-family: "Neue Haas Grotesk";
-    src: url("fonts/NeueHaasGroteskTextPro.woff2") format("woff2");
+    font-family: "PP Neue Machina";
+    src: url("fonts/PPNeueMachina-PlainLight.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-
 body {
     margin: 0;
-    font-family: "Neue Haas Grotesk", Arial, sans-serif;
+    font-family: "PP Neue Machina", Arial, sans-serif;
     background-color: #f4f7fb;
     color: #222;
 }
@@ -63,10 +62,17 @@ main {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
+body,
+h1, h2, h3, h4, h5, h6,
+nav,
+a,
+p,
+li,
+button {
+    font-family: "PP Neue Machina", Arial, sans-serif;
+}
 h1 {
-    font-family: "NeueHaas", Arial, sans-serif;
-    font-size: 60px;
-    letter-spacing: 2px;
+    font-size: 4rem;
 }
 .button {
     display: inline-block;
@@ -79,7 +85,4 @@ h1 {
 
 .button:hover {
     background-color: #3f6b95;
-}
-h1, h2, nav {
-    font-family: "Neue Haas Grotesk", Arial, sans-serif;
 }
