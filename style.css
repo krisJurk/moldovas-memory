@@ -8,8 +8,8 @@
 body {
     margin: 0;
     font-family: "PP Neue Machina", Arial, sans-serif;
-    background-color: #f4f7fb;
-    color: #222;
+    background-color: #FAF8F2;
+    color: #2B2B2B;
 }
 body,
 h1, h2, h3, h4, h5, h6,
@@ -21,7 +21,7 @@ a {
     font-style: normal;
 }
 nav {
-    background-color: #2f5d50;
+    background-color: #003F7D;
     padding: 0;
 }
 
@@ -39,11 +39,9 @@ nav a {
     padding: 16px 20px;
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
-
 nav a:hover {
-    background-color: #3f6b95;
+    background-color: #245A9B;
 }
 
 header {
@@ -85,4 +83,21 @@ h1 {
 
 .button:hover {
     background-color: #3f6b95;
+}
+h1, h2, h3 {
+    color: #003F7D;
+}
+h2 {
+    border-bottom: 3px solid #F2C94C;
+    padding-bottom: 8px;
+}
+header {
+    background: linear-gradient(
+        135deg,
+        #003F7D,
+        #245A9B
+    );
+    color: white;
+    padding: 80px 30px;
+    text-align: center;
 }
