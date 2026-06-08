@@ -21,7 +21,7 @@ a {
     font-style: normal;
 }
 nav {
-    background-color: #003F7D;
+    background-color: #2B2B2B;
     padding: 0;
 }
 
@@ -41,7 +41,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    background-color: #245A9B;
+    background-color: #555555;
 }
 
 header {
