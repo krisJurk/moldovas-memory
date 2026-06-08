@@ -22,9 +22,10 @@ a {
 }
 nav {
     background-color: #2B2B2B;
-    padding: 0;
+    width: 95%;
+    margin: 20px auto;
+    border-radius: 12px;
 }
-
 nav ul {
     margin: 0;
     padding: 0;
