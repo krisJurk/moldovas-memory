@@ -1,15 +1,27 @@
 @font-face {
-    font-family: "NeueHaas";
-    src: url("./fonts/NeueHaasGrotTextRound-65Medium-Trial.woff") format("woff");
+    font-family: "Neue Machina";
+    src: url("fonts/NeueMachina.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url("fonts/NeueHaasGroteskTextPro.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
-    font-family: "NeueHaas", Arial, sans-serif;
+    font-family: "Neue Haas Grotesk", Arial, sans-serif;
     background-color: #f4f7fb;
     color: #222;
+}
+h1, h2, h3, h4, h5, h6, nav {
+    font-family: "Neue Machina", sans-serif;
 }
 nav {
     background-color: #2f5d50;
